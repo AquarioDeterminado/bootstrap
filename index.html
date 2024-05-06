@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+<nav id="navbar-example2" class="navbar navbar-light bg-light px-3">
+    <a class="navbar-brand" href="#">Index</a>
+    <ul class="nav nav-pills">
+        <li class="nav-item">
+            <a class="nav-link" href="#scrollspyHeading1">Project</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#scrollspyHeading2">Description</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#scrollspyHeading3">Word Map</a>
+        </li>
+    </ul>
+</nav>
+
+
+
+<div class="jumbotron text-center">
+    <h1>Computer science IADE</h1>
+    <p>A little intro to what we do int the course</p>
+</div>
+
+
+<div class="container">
+
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+        <div style="height: 100vh; width: 100%">
+        <h4 id="scrollspyHeading1">Projects</h4>
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th scope="col">Semester</th>
+                <th scope="col">Topic</th>
+                <th scope="col">Repository</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>4 in a row</td>
+                <td><a href="Not found">Github</a></td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Fisics Simulator</td>
+                <td><a href="https://github.com/IADE-PA/iade-pa-2022-2023-projeto-burguesia">Github</a></td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td colspan="1">Cowork Finder and Subscription Manager</td>
+                <td><a href="https://github.com/AquarioDeterminado/Projeto_Solar_IADE_3_Semestre">Github</a></td>
+            </tr>
+            </tbody>
+        </table>
+        </div>
+        <div style="height: 100vh; width: 100%">
+        <h4 id="scrollspyHeading2">Description</h4>
+        <p>Computer science is the study of algorithmic processes, computational machines and computation itself. As a discipline, computer science spans a range of topics from theoretical studies of algorithms, computation and information to the practical issues of implementing computational systems in hardware and software.</p>
+        </div>
+        <div style="height: 100vh; width: 100%">
+        <h4 id="scrollspyHeading3">Word Map</h4>
+
+            <div class="row justify-content-start">
+                <div class="col-4">
+                    Web Development
+                </div>
+                <div class="col-4">
+                    Mobile Development
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-4">
+                    Low Level Programming
+                </div>
+                <div class="col-4">
+                    Frontend Development
+                </div>
+            </div>
+            <div class="row justify-content-end">
+                <div class="col-4">
+                    Ui/Ux Design
+                </div>
+                <div class="col-4">
+                    Os Development
+                </div>
+            </div>
+            <div class="row justify-content-around">
+                <div class="col-4">
+                    Algorithms
+                </div>
+                <div class="col-4">
+                    Data Structures
+                </div>
+            </div>
+            <div class="row justify-content-between">
+                <div class="col-4">
+                    Machine Learning
+                </div>
+                <div class="col-4">
+                    Artificial Intelligence
+                </div>
+            </div>
+            <div class="row justify-content-evenly">
+                <div class="col-4">
+                    Cybersecurity
+                </div>
+                <div class="col-4">
+                    Networking
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+</div>
+
+</body>
+</html>
